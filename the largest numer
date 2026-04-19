@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+int main ()
+{
+
+
+
+
+int Num1 , Num2 , Num3;
+
+    cout << "Enter three numbers:-\n";
+    cin >> Num1 >> Num2 >> Num3 ;
+    if (Num1 < Num2 && Num1 < Num3)
+       cout << "the largest Number is " <<Num1 << endl ;
+    else if (Num2 < Num1 && Num2 < Num3)
+       cout << "the largest Number is " <<Num2 << endl ;
+    else
+       cout << "the largest Number is " <<Num3 << endl ;
+
+    return 0;
+}
